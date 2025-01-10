@@ -6,22 +6,22 @@
     a {
         position: relative;
         text-decoration: none;
-        color: #007BFF; /* Default link color */
+        color: #7CB9E8;
         transition: color 0.3s ease;
     }
 
     a:hover {
-      color: #FF4500; /* Highlight color */
+      color: #F0F8FF;
     }
     
     a::after {
       content: '';
       position: absolute;
       left: 0;
-      bottom: -2px; /* Slightly below the text */
+      bottom: -2px;
       width: 0;
       height: 2px;
-      background-color: #FF4500; /* Highlight color */
+      background-color: #00FFFF; /* Highlight color */
       transition: width 0.3s ease;
     }
     
@@ -35,7 +35,6 @@ body {
     width: 70%;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -43,13 +42,6 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
 }
 .welcome-page {
     h1 {
@@ -62,11 +54,9 @@ a:hover {
         font-size: 1.5rem;
     }
 }
-h1 {
-    font-size: 3em;
-}
+
 p {
-    font-size: 1.5em;
+    font-size: 1rem;
     line-height: 1.4em;
     color: #333;
 }
