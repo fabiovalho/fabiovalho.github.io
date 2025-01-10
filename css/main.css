@@ -1,13 +1,12 @@
 * {
     font-size: 10px;
-    font-family: Garamond, serif;
+    font-family: 'Alegreya', Garamond, serif;
     background-color: #36454F;
     color: #F9F6EE;
     
     p {
         font-size: 1rem;
         line-height: 1.4em;
-        color: #333;
     }
     
     a {
